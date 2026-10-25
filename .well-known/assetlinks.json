@@ -1,11 +1,26 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "au.com.pomodorotimer.focus",
       "sha256_cert_fingerprints": [
         "7B:51:1F:5B:C7:4E:C6:C9:8E:AA:80:A6:76:5A:0E:B3:E7:D6:CD:6C:05:BA:A6:AE:A0:BD:43:B3:94:36:05:E5"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.revoba.fotomacera",
+      "sha256_cert_fingerprints": [
+        "A6:76:BC:62:20:0D:95:10:BD:1D:80:CD:F5:DC:5F:15:97:78:E1:B0:DC:D4:7C:4B:B4:0E:8A:17:4A:E2:7A:E8",
+        "8B:99:0A:D8:0A:FB:6A:11:3C:B6:18:8A:06:DA:EC:FB:1A:85:E4:44:BC:60:90:60:AC:CA:40:79:A1:83:1E:46"
       ]
     }
   }
